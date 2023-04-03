@@ -38,6 +38,6 @@ fun Greeting(name: String) {
 @Composable
 fun DefaultPreview() {
     RelaySystemAndroidTheme {
-        Greeting("Android 123")
+        Greeting("Android ")
     }
 }
