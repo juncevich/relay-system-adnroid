@@ -1,4 +1,4 @@
-package com.relay.android.ui.theme
+package com.relay.android.presentation.ui.theme
 
 import android.app.Activity
 import android.os.Build
