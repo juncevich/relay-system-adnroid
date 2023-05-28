@@ -92,7 +92,8 @@ fun RelayItemPreview() {
         createdAt = OffsetDateTime.now(),
         updatedAt = OffsetDateTime.now()
             .plusMinutes(Random().nextInt(100).toLong()),
-        nextCheckDate = LocalDate.now().plusMonths(Random().nextInt(10).toLong())
+        nextCheckDate = LocalDate.now()
+            .plusDays(Random().nextInt(365).toLong())
     )
     RelaySystemAndroidTheme {
         RelayItem(item, modifier = Modifier.padding(vertical = 8.dp, horizontal = 16.dp))
